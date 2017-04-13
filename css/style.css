@@ -127,6 +127,24 @@ footer#credits {
 MEDIA QUERIES FOR LARGER BREAKPOINTS BEGIN HERE
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-@media screen and (min-width: ) {
+@media screen and (min-width: 800px)
+  #main{
+    margin-right:10%;
+    margin-left:10%;
+  }
+  section{
+    width: 30.714285714286%;
+    float: left;
+    margin-right:3.928571428571%;
+  }
+
+  section:last-child{
+    margin-right: 0;
+  }
+
+  blockquote{
+    padding: 1em;
+    background: url(../imgs/noise.jpg) repeat fixed;
+  }
 
 }
